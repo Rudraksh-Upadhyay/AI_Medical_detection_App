@@ -3,7 +3,7 @@ from pathlib import Path
 import google.generativeai as genai
 from PIL import Image
 
-from api_key import api_key
+#from api_key import api_key
 
 genai.configure(api_key=api_key)
 
